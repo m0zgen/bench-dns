@@ -1,6 +1,8 @@
 # BENCH DNS
 
-Simple script fro DNS upload testing. Written in Go. 
+Simple script for DNS upload / requests processing tests. Written in Go.
+
+Allow to observe static on the DNS servers, such as - errors, speed of response, cache, requests blocking, cache and etc.
 
 ## Features
 
