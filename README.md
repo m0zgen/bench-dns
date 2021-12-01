@@ -22,7 +22,7 @@ Using remote file (will saved locally as `domains.txt`):
 ```
 go run bench-dns.go -ip "1.1.1.1" -iterate 100 -url "https://raw.githubusercontent.com/m0zgen/dns-hole/master/whitelist.txt"
 ```
-## Hot to build
+## How to build
 
 Clone repository:
 
