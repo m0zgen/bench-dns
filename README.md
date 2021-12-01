@@ -57,3 +57,10 @@ You need use one argement - url or file
   -url string
         URL to raw domain list
 ```
+
+## Related projects
+
+* https://github.com/m0zgen/dns-tester.git
+* https://github.com/m0zgen/dns-hole.git
+* https://github.com/m0zgen/blocky-listener-daemon.git
+* https://lab.sys-adm.in
