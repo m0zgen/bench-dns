@@ -133,7 +133,6 @@ func OpenFile(f string) {
 	}
 
 	// Count lines in text file
-	// loop lines from domains,txt
 	domains := 0
 	for _, domain := range text {
 
@@ -165,7 +164,7 @@ func main() {
 	flag.Parse()
 
 	if *file == "" && *url == "" {
-		fmt.Println("You need use one argement - url or file")
+		fmt.Println("You need use one argument - url or file")
 		flag.PrintDefaults()
 		os.Exit(1)
 	}
