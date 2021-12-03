@@ -1,6 +1,9 @@
 # Binary file and downloaded domain list
 bench-dns
 domains.txt
+go.mod
+tmp
 
 # except for these extensions
 !**/*.go
+dist/
