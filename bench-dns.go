@@ -202,8 +202,4 @@ func main() {
 		OpenFile("domains.txt")
 	}
 
-	// if *url != "" {
-	// 	fmt.Println("url: ", *url)
-	// }
-
 }
