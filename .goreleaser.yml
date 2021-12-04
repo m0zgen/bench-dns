@@ -4,6 +4,7 @@ before:
   hooks:
     # You may remove this if you don't use go modules.
     - go mod tidy
+    - go mod download
     # you may remove this if you don't need go generate
     #- go generate ./
 builds:
@@ -24,6 +25,19 @@ builds:
         goarch: arm, 386
       - goos: windows
         goarch: arm, 386
+archives:
+  -
+    replacements:
+      darwin: macOS
+      linux: Linux
+      windows: Windows
+      amd64: x86_64
+    wrap_in_directory: true
+    format_overrides:
+      - goos: windows
+        format: zip
+    files:
+      - README.md
 gomod:
   proxy: true
   env:
