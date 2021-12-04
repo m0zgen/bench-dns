@@ -13,7 +13,7 @@ builds:
     goos:
       - linux
       - windows
-      - darwin
+      - darwinr
     targets:
       - linux_amd64
       - darwin_amd64
@@ -40,9 +40,6 @@ archives:
       - README.md
 gomod:
   proxy: true
-  env:
-    - GOPROXY=https://proxy.golang.org,direct
-    - GOSUMDB=sum.golang.org
 checksum:
   name_template: 'checksums.txt'
 snapshot:
