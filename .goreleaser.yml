@@ -12,7 +12,7 @@ builds:
       - CGO_ENABLED=0
     goos:
       - linux
-#      - windows
+      - windows
       - darwinr
     targets:
       - linux_amd64
@@ -23,19 +23,19 @@ builds:
         goarch: arm, 386
       - goos: linux
         goarch: arm, 386
-#      - goos: windows
-#        goarch: arm, 386
+      - goos: windows
+        goarch: arm, 386
 archives:
   -
     replacements:
       darwin: macOS
       linux: Linux
-# #     windows: Windows
+      windows: Windows
       amd64: x86_64
     wrap_in_directory: true
-#    format_overrides:
-#      - goos: windows
-#        format: zip
+    format_overrides:
+      - goos: windows
+        format: zip
     files:
       - README.md
 #gomod:
