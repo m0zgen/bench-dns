@@ -7,3 +7,4 @@ tmp
 # except for these extensions
 !**/*.go
 dist/
+.DS_Store
